@@ -20,7 +20,7 @@ Boot loop is recoverable via LK fastboot, which you can enter on this device
 - `README.md` - this doc and research reference.
 - `ota/` - location for official full OTA files; OTAs not included. Download from the official AMZ repo only.
 - `lk/fastboot_unlock_probe.sh` - development script- can use to enter LK fastboot mode directly, might be useful in a boot loop scenario.
-- `lk/boot_flashing_guide.md` - guide to flashing altered boot.img (for persistent root, see )
+- `lk/boot_flashing_guide.md` - guide to flashing patch boot.img (magisk/persistent root guide)
 
 The only host runtime dependencies are Python 3.9 or newer and `adb`. No NDK,
 compiler, root shell, PyUSB, fastboot, repository checkout, or Python package
